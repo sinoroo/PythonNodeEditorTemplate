@@ -1,0 +1,72 @@
+{
+  "version": "1.0",
+  "nodes": [
+    {
+      "node_id": 63,
+      "title": "Data Source",
+      "image_path": "data_source.png",
+      "category": "Data",
+      "x": -148.0,
+      "y": -57.0,
+      "input_ports": [],
+      "output_ports": [
+        "data"
+      ],
+      "input_connections": {},
+      "output_connections": {
+        "data": [
+          [
+            64,
+            "data"
+          ],
+          [
+            79,
+            "data"
+          ]
+        ]
+      }
+    },
+    {
+      "node_id": 64,
+      "title": "Sort",
+      "image_path": "sort.png",
+      "category": "Processing",
+      "x": 184.0,
+      "y": -47.0,
+      "input_ports": [
+        "data"
+      ],
+      "output_ports": [
+        "result"
+      ],
+      "input_connections": {
+        "data": [
+          63,
+          "data"
+        ]
+      },
+      "output_connections": {}
+    },
+    {
+      "node_id": 79,
+      "title": "Filter",
+      "image_path": "filter.png",
+      "category": "Processing",
+      "x": 248.0,
+      "y": -195.0,
+      "input_ports": [
+        "data"
+      ],
+      "output_ports": [
+        "result"
+      ],
+      "input_connections": {
+        "data": [
+          63,
+          "data"
+        ]
+      },
+      "output_connections": {}
+    }
+  ]
+}

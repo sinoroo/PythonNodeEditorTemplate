@@ -1,0 +1,47 @@
+{
+  "version": "1.0",
+  "nodes": [
+    {
+      "node_id": 61,
+      "title": "Data Source",
+      "image_path": "data_source.png",
+      "category": "Data",
+      "x": -252.0,
+      "y": -49.0,
+      "input_ports": [],
+      "output_ports": [
+        "data"
+      ],
+      "input_connections": {},
+      "output_connections": {
+        "data": [
+          [
+            62,
+            "data"
+          ]
+        ]
+      }
+    },
+    {
+      "node_id": 62,
+      "title": "Filter",
+      "image_path": "filter.png",
+      "category": "Processing",
+      "x": 154.0,
+      "y": -51.0,
+      "input_ports": [
+        "data"
+      ],
+      "output_ports": [
+        "result"
+      ],
+      "input_connections": {
+        "data": [
+          61,
+          "data"
+        ]
+      },
+      "output_connections": {}
+    }
+  ]
+}

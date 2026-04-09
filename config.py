@@ -1,0 +1,36 @@
+# Application Configuration
+
+## Window Settings
+WINDOW_WIDTH = 1400
+WINDOW_HEIGHT = 900
+WINDOW_X = 100
+WINDOW_Y = 100
+
+## Canvas Settings
+GRID_SIZE = 50
+GRID_COLOR = (100, 100, 100)
+
+# Node Settings
+NODE_WIDTH = 150
+NODE_HEIGHT = 100
+PORT_SIZE = 10
+
+## UI Settings
+LOG_PANEL_HEIGHT = 200
+NODE_LIST_WIDTH = 250
+
+## Default Settings
+AUTO_SAVE = False
+AUTO_SAVE_INTERVAL = 60  # seconds
+
+# File Settings
+DEFAULT_FILE_TYPE = "canvas"
+RECENT_FILES_COUNT = 10
+
+# Theme Settings
+BACKGROUND_COLOR = (200, 200, 200)
+NODE_COLOR = (100, 150, 200)
+NODE_SELECTED_COLOR = (150, 200, 255)
+PORT_COLOR = (100, 100, 200)
+PORT_HOVER_COLOR = (100, 150, 255)
+CONNECTION_COLOR = (100, 100, 100)
